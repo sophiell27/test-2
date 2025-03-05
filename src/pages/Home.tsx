@@ -7,9 +7,11 @@ const Home = () => {
   };
   return (
     <div>
-      <h1>Home</h1>
+      <h1>
+        Home
+        <p onClick={onClick}>go to about </p>
+      </h1>
       <div className=''></div>
-      <p onClick={onClick}>go to about </p>
     </div>
   );
 };
