@@ -5,9 +5,9 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/test-2'>
       <Routes>
-        <Route path='/test-2/' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
       </Routes>
     </Router>
